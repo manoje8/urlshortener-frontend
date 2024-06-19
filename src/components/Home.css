@@ -1,0 +1,25 @@
+.home {
+  padding-top: 5rem;
+  height: 91vh;
+  width: 100vw;
+  background: url('https://images.pexels.com/photos/1809644/pexels-photo-1809644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #edf2f4;
+  /* text-shadow: 1px 1px 2px rgb(255, 255, 255); */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+.home p {
+  width: 50vw;
+  letter-spacing: 0.75;
+  position: absolute;
+  bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,76 @@
+.header ul{
+    padding-right: 2rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    list-style-type: none;
+    letter-spacing: 0.15rem;
+    margin-top: 1rem;
+    height: 3rem;
+    box-shadow: inset -1px -1px 0px 0px #e1e1e1;
+}
+
+.header li:first-child:after {
+    padding-left: 2rem;
+    content: "|";
+}
+
+
+.url-container {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.url-container .url-form {
+    width: 50%;
+    margin-bottom: 2rem;
+}
+
+.url-form input {
+    height: 3rem;
+}
+
+.url-container .short-url-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.url-container .short-url-link:hover {
+    text-decoration: none;
+    font-size: 1.75rem;
+    color: darkblue;
+}
+
+.count {
+    position: absolute;
+    bottom: 2rem;
+    width: 90%;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.count h2 {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: aliceblue;
+}
